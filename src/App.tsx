@@ -144,7 +144,7 @@ function App() {
         <section className="home-page">
           <div className="home-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> A little test of your gaming memory</div>
-            <h1>Know the quest.<br /><span>Name the game.</span></h1>
+            <h1><span>Name the game.</span></h1>
             <p className="home-intro">A random moment from a long play. No title, no hints. Watch, guess, then see if you got it right.</p>
             <button className="primary-button home-cta" onClick={() => navigate('play')}>
               Start playing <span aria-hidden="true">↗</span>
